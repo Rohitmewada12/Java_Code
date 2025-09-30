@@ -1,3 +1,20 @@
+/**
+ * Program: Nth Prime Number
+ * Author: Rohit Mewada
+ * 
+ * Description:
+ *   This program finds the Nth prime number.
+ *
+ * Approach:
+ *   1. Start from number = 2.
+ *   2. Check if the number is prime using a helper function.
+ *   3. Keep a counter of how many primes found so far.
+ *   4. Stop when the counter reaches N and print the number.
+ *
+ * Example:
+ *   Input: N = 5
+ *   Output: 11
+ */
 package NumberSystem;
 
 import java.util.Scanner;
